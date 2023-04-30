@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: rgb(44, 37, 37);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px 0;
+}
+
+.nav_links {
+    display: flex;
+}
+
+.nav_links li a {
+    margin-left: 15px;
+    color: gray;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.logo h2 a {
+    color: #fff;
+}
+
+.btn1 {
+    background: #f9d140;
+    padding: 4px 18px;
+    border-radius: 20px;
+    color: black;
+    border: 1px solid #f9d140;
+    font-weight: 700;
+    font-size: large;
+}
+
+.inner_anasayfa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.child_anasayfa {
+    margin-right: 25%;
+    flex-basis: 45%;
+    margin-bottom: 30px;
+}
+
+.img {
+    width: 100;
+    height: 100;
+    left: 3%;
+    top: 150px;
+    margin-top: 80px;
+}
+
+.btn {
+    background: black;
+    padding: 4px 38px;
+    border-radius: 20px;
+    color: #fff;
+    border: 1px solid black;
+    margin-bottom: 8px;
+    font-size: large;
+}
+
+.material-symbols-rounded {
+    color: #f9d140;
+    font-variation-settings: 'FILL' 40, 'wght' 400, 'GRAD' 40, 'opsz' 40
+}
+
+.btn2 {
+    background: #f9d140;
+    padding: 4px 32px;
+    border-radius: 20px;
+    color: black;
+    border: 1px solid #f9d140;
+    font-weight: 700;
+    font-size: large;
+}
+
+.text {
+    flex-basis: 45%;
+    margin-top: 15px;
+    margin-left: 180px;
+}
+
+.text h2 a {
+    color: black;
+}
+
+.text1 {
+    color: black;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text2 {
+    color: #000;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box1 {
+    position: relative;
+    display: inline-block;
+}
+
+.image img {
+    position: absolute;
+    display: inline-block;
+    margin-left: 900px;
+    border-radius: 25px;
+}
+
+.text1 p {
+    position: relative;
+    display: inline-block;
+}
+
+.text1 p {
+    position: relative;
+    display: inline-block;
+}
+
+.person {
+    margin-top: 30px;
+    font-weight: 900;
+    position: relative;
+    display: inline-block;
+}
+
+.about {
+    position: absolute;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 150px;
+}
